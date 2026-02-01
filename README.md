@@ -1,4 +1,4 @@
-# HashMap & Dictionary (C++)
+﻿# HashMap & Dictionary (C++)
 
 ## Overview
 
@@ -9,13 +9,13 @@ a specialized **Dictionary** class built on top of it.
 
 ``` text
 .
-??? CMakeLists.txt
-??? Makefile
-??? demo/
-?   ??? main.cpp            # Demo program showcasing HashMap & Dictionary
-??? src/
-    ??? HashMap.hpp         # Generic hash map implementation
-    ??? Dictionary.hpp      # Dictionary specialization (string ? string)
+├── CMakeLists.txt
+├── Makefile
+├── demo/
+│   └── main.cpp            # Demo program showcasing HashMap & Dictionary
+└── src/
+    ├── HashMap.hpp         # Generic hash map implementation
+    └── Dictionary.hpp      # Dictionary specialization (string → string)
 ```
 
 ## Building with Makefile
@@ -49,7 +49,7 @@ demo.exe
 ## Building with CMake
 
 ### Requirements
-- CMake ? 3.16
+- CMake ≥ 3.16
 - C++17-compatible compiler
 
 ### Build
