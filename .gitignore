@@ -1,0 +1,74 @@
+####################################
+# Build artifacts
+####################################
+build/
+build-*/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+Makefile.user
+*.cmake
+compile_commands.json
+
+####################################
+# Executables & binaries
+####################################
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.a
+*.o
+*.obj
+
+####################################
+# Tests 
+####################################
+tests/
+tests_*/
+*_tests
+*_test
+test_runner
+tests_runner
+
+####################################
+# Sanitizers / profiling
+####################################
+vgcore.*
+core
+*.prof
+*.gcda
+*.gcno
+*.gcov
+
+####################################
+# IDE / editor files
+####################################
+.vscode/
+.idea/
+*.swp
+*.swo
+*.user
+*.bak
+*.tmp
+
+####################################
+# OS junk
+####################################
+.DS_Store
+Thumbs.db
+
+####################################
+# Logs
+####################################
+*.log
+
+####################################
+# Allow only these top-level paths
+####################################
+!src/
+!demo/
+!CMakeLists.txt
+!Makefile
+!README.md
